@@ -11,8 +11,8 @@ on:
       - main
       - 'dev-*' # any branch name that has name dev in it
       - 'feat/**' #any branch name that has name feat in it n any special characters too
-    paths-ignore:
-      - '.github/workflows/*'
+    # paths-ignore:
+    #   - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: windows-latest
